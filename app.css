@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.navbar {
+  background-color: #0c0c0c;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  text-align: center;
+}
+
+.main-heading {
+  margin: 20% 0;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.main-heading h1 {
+  margin-left: 50px;
+}
+.main-heading h2 {
+  margin-left: 50px;
+}
+
+body {
+  background: url("images/landing_page.jpg") no-repeat fixed 50%;
+  background-size: cover;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#terminal {
+  color: white;
+  padding: 25px;
+  background-color: #0c0c0c;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.dots {
+  margin: 0;
+}
+
+#terminal-body {
+  background-color: #302e2e;
+}
+
+.terminal-entry:first-child {
+  padding-top: 10px;
+}
+
+.terminal-output {
+  margin-bottom: 30px;
+}
+
+#resume {
+  background-color: #343a40;
+  padding-top: 25px;
+}
+
+.education {
+  padding-bottom: 45px;
+}
+
+.logo {
+  background-color: white;
+  border: 3px solid black;
+}
+
+.coursework {
+  margin-top: 25px;
+}
+
+.row ul {
+  margin-left: 50px;
+}
+
+#contact {
+  background-color: #0c0c0c;
+  padding-top: 25px;
+  padding-bottom: 50px;
+}
